@@ -1,10 +1,15 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
 			{
 				"anonymous": false,
 				"inputs": [
@@ -44,11 +49,6 @@
 			},
 			{
 				"inputs": [
-					{
-						"internalType": "address",
-						"name": "initialOwner",
-						"type": "address"
-					},
 					{
 						"internalType": "uint256",
 						"name": "initialSupply",
@@ -265,19 +265,19 @@
 			]
 		},
 		"contracts/Token.sol": {
-			"keccak256": "0x7dbfa71601976660a854728336373ddd157c1b3a10d6ba9d09b1f0b49690be45",
+			"keccak256": "0x3fa7b96da4d8d036f29f1730a353949dcf7bac79bf8fad08ad723151bbb8e363",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e13245b4e6dda3fa1f8489f9a0a0c191f156f8aa6cd8ad4741e9dc6f7d0b1cc5",
-				"dweb:/ipfs/QmVXKssc4tLShJYyYD1UzmmEJp1fKvUc2QaUGShdu4Wo1L"
+				"bzz-raw://a8a40554d1536916864aa82865904322d890ce090e85a01744c9ac734b5705e7",
+				"dweb:/ipfs/QmWEk7ptY4K8MH9N9xjmktUi2YwrDiPqqywbrW8TVP4k2L"
 			]
 		},
 		"contracts/TokenFactory.sol": {
-			"keccak256": "0x74a7d0dc58b00d0fe39e47fd2f288fe1a511f0ec9610926f44281224aa5add7c",
+			"keccak256": "0x69b726c799e88ba6f80b6e3ecb9bb6c8052da427b4dcfcfd974ab262c6e2cb25",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://710247d609eae449f7a3cc3c4ec3db998f524c808164d320be9c1d044d62f632",
-				"dweb:/ipfs/Qmai7ZrtoPEticbZVJi8jixmejKU9kPjdd99fS2u9YryzA"
+				"bzz-raw://552237d459632baa1c1d2b734ec131e3ad3392354cdfb58e2b5bf67ad2837bb1",
+				"dweb:/ipfs/QmcG8q5yM7qmJYGZwkaSDDAFcSWFCMdJYvXikM5zztnF8p"
 			]
 		}
 	},

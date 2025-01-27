@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -441,24 +441,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "mint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -1036,11 +1018,11 @@
 			]
 		},
 		"contracts/Token.sol": {
-			"keccak256": "0x2bba8894ba479d20d25d57848f860f014c5e8d0193134b5c3d0343ebfb6a4840",
+			"keccak256": "0x0883428dd2b3188571ee4c0000cbaaefa521a5938438f1838a50155176c197c3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eb8d991e8ede65483840fbf53981abc89ecbe03a9d978b608809c31d776a3487",
-				"dweb:/ipfs/QmVNHwxAazajYhHQYP6an34u9zjnYf88AShYJoM2hCiUfE"
+				"bzz-raw://bb6d2c5115933a3ca48959384bca64cc15a8ffa8259c449081c63ae07bf0c6d9",
+				"dweb:/ipfs/QmbCDMGz7HE3Rjbx5WJLTKYto8XGq1kw5xk33b7Qht5Mtj"
 			]
 		}
 	},
